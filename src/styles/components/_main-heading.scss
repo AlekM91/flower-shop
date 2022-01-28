@@ -1,0 +1,8 @@
+.main-heading {
+    color: $primary;
+    font-size: 32px;
+    
+    @include media-up(m) {
+        font-size: 64px;
+    }
+}

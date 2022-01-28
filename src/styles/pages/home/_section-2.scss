@@ -1,0 +1,21 @@
+.section-2 {
+
+    .section-content {
+        display : flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        .inner {
+            margin-top: 40px;
+            @include media-up(m) {
+                padding: 111px;
+            }
+        }
+
+        p {
+            margin-top: 40px;
+        }
+    }
+}

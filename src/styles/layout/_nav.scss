@@ -1,0 +1,27 @@
+// Main navigation
+.main-nav {
+    display: none;
+
+    @include media-up(m) {
+        display: block;
+    }
+
+    ul {
+        display: flex;
+
+        li {
+            
+            a {
+                display: inline-block;
+                padding: 30px 50px;
+                
+                &:last-child {
+                    padding-right: 0;
+                }
+            }
+
+            
+        }
+    }
+
+}
