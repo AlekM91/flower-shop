@@ -1,0 +1,9 @@
+.section-js {
+    opacity: 1;
+    transition: .5s;
+
+    &-hidden {
+        opacity: 0;
+    }
+}
+

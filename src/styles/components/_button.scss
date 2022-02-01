@@ -3,4 +3,16 @@
     display: inline-block;
     border:  2px solid #CC7664;
     border-radius: 10px;
+
+    &:hover {
+        color: $white;
+        border-color: $white;
+    }
+
+    &-white {
+        
+        &:hover {
+            background: $primary;
+        }
+    }
 }

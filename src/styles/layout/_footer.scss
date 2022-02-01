@@ -7,6 +7,15 @@
         align-items: center;
         padding: 110px 0;
         text-align: center;
+        flex-direction: column;
+
+        & > div {
+            margin-bottom: 50px;
+        }
+
+        @include media-up(m) {
+            flex-direction: row;
+        }
 
         .flower {
 
