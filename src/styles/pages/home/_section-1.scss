@@ -39,6 +39,12 @@
                     font-size: 120px;
                 }
             }
+
+            @include media-landscape() {
+                h1 {
+                    font-size: 60px;
+                }
+            }
         }
     }
 }

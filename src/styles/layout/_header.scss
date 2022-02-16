@@ -16,8 +16,6 @@
         align-items: center;
     }
 
-
-
     .site-logo {
         position: relative;
         z-index: 3;
@@ -62,7 +60,6 @@
 
     &-active {
 
-        
         .site-logo {
             color: $white;
         }
@@ -73,7 +70,6 @@
                 background: $white;
             }
         }
-
     }
 
     &-active-color {

@@ -5,7 +5,6 @@ class RevealOnScroll {
         this.events()
     }
 
-
     events() {
         this.sections.forEach(section => {
             section.classList.add('section-js-hidden'); 
@@ -20,6 +19,5 @@ class RevealOnScroll {
         observer.unobserve(entry.target);
     }
 }
-
 
 export default RevealOnScroll;

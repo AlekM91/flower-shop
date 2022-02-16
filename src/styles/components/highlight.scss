@@ -1,0 +1,11 @@
+.highlight {
+   @include media-up(m) {
+        transition: .2s ease;
+        cursor: pointer;
+        overflow: hidden;
+        
+        &:hover {
+            transform: scale(1.1);
+        }
+   }
+}
