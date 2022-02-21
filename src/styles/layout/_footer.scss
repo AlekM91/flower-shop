@@ -32,8 +32,15 @@
 
             ul {
 
-                li:not(:last-child) {
-                    margin-bottom: 20px;
+                li {
+                    &:not(:last-child) {
+                        margin-bottom: 20px;
+                    }
+                    transition: .2s;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
                 }
             }
         }

@@ -34,6 +34,7 @@
                 right: 0;
                 top: 0;
                 transform: none;
+                // This is because of the design for large screens
 
                 h1 {
                     font-size: 120px;
@@ -43,6 +44,16 @@
             @include media-landscape() {
                 h1 {
                     font-size: 60px;
+                }
+            }
+
+            @include media-landscape {
+                right: 50%;
+                top: 50%;
+                transform: translate(50%, -50%);
+                
+                h1 {
+                    font-size: 32px;
                 }
             }
         }

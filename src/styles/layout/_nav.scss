@@ -9,14 +9,17 @@
             
             a {
                 display: inline-block;
-                padding: 30px 50px;
-                
-                &:last-child {
-                    padding-right: 0;
-                }
+                padding: 20px;
 
                 &:hover {
                     color: $white;
+                }
+            }
+
+            &:last-child {
+                
+                a {
+                    padding-right: 0;
                 }
             }
         }
