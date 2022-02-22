@@ -160,7 +160,6 @@ $utilities: (
   )
 );
 
-
 // generate utility classes
 @each $property, $map in $utilities {
     $prefix: map-get($map, "prefix");
