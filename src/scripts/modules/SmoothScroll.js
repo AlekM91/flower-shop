@@ -1,6 +1,6 @@
 class SmoothScroll {
     constructor() {
-        this.nav = document.querySelectorAll('.nav')
+        this.nav = document.querySelectorAll('.nav');
         this.events()
     }
 
@@ -12,7 +12,9 @@ class SmoothScroll {
     scrollFunction(e) {
         e.preventDefault();
         let id = e.target.getAttribute('href');
-        document.querySelector(id).scrollIntoView({behavior: 'smooth'})
+        document.querySelector(id).scrollIntoView({
+            behavior: 'smooth',
+        })
     }
 }
 

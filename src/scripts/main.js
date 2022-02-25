@@ -8,7 +8,6 @@ if(module.hot) {
     module.hot.accept();
 }
 
-
 let menuScroll = new MenuScroll;
 let mobileMenu = new MobileMenu;
 let smoothScroll = new SmoothScroll;
